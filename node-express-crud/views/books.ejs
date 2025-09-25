@@ -17,9 +17,9 @@
             <ul class="product-list">
                 <% data.books.forEach(book => { %>
                     <li class="product-item">
-                        <strong><%= product.name %></strong>
-                        <span>Categoria: <%= product.category %></span>
-                        <span>Preu: <%= product.price %></span>
+                        <strong><%= book.name %></strong>
+                        <span>Autor: <%= book.author %></span>
+                        <span>Year: <%= book.year %></span>
                     </li>
                 <% }) %>
             </ul>
